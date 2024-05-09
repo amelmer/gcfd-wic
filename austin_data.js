@@ -5,7 +5,7 @@ var austin = {
     "type": "Feature",
     "geometry": {
        "type": "Point",
-       "coordinates":  [ -87.7664080627103,41.8899240662873 ]
+       "coordinates":  [ 41.8899240662873,-87.7664080627103 ]
     },
     "properties": {
     "A":"The Field School",
@@ -29,7 +29,7 @@ var austin = {
     "type": "Feature",
     "geometry": {
        "type": "Point",
-       "coordinates":  [ -87.7632652197489,41.8847332767489 ]
+       "coordinates":  [ 41.8847332767489,-87.7632652197489 ]
     },
     "properties": {
     "A":"Austin College & Career Academy",
@@ -53,7 +53,7 @@ var austin = {
     "type": "Feature",
     "geometry": {
        "type": "Point",
-       "coordinates":  [ -87.7601843255854,41.8949504464605 ]
+       "coordinates":  [ 41.8949504464605,-87.7601843255854 ]
     },
     "properties": {
     "A":"Austin Career Education Center",
@@ -77,7 +77,7 @@ var austin = {
     "type": "Feature",
     "geometry": {
        "type": "Point",
-       "coordinates":  [ -87.7677183339043,41.8908312585789 ]
+       "coordinates":  [ 41.8908312585789,-87.7677183339043 ]
     },
     "properties": {
     "A":"Frederick Douglas Academy HS",
@@ -101,7 +101,7 @@ var austin = {
     "type": "Feature",
     "geometry": {
        "type": "Point",
-       "coordinates":  [ -87.7593606121816,41.8933944450628 ]
+       "coordinates":  [ 41.8933944450628,-87.7593606121816 ]
     },
     "properties": {
     "A":"Howe School of Excellence",
@@ -125,7 +125,7 @@ var austin = {
     "type": "Feature",
     "geometry": {
        "type": "Point",
-       "coordinates":  [ -87.770392903203,41.8963613672031 ]
+       "coordinates":  [ 41.8963613672031,-87.770392903203 ]
     },
     "properties": {
     "A":"St Paul Lutheran School",
@@ -149,7 +149,7 @@ var austin = {
     "type": "Feature",
     "geometry": {
        "type": "Point",
-       "coordinates":  [ -87.7557772702586,41.8989557332879 ]
+       "coordinates":  [ 41.8989557332879,-87.7557772702586 ]
     },
     "properties": {
     "A":"John Hay Community  Academy",
@@ -173,7 +173,7 @@ var austin = {
     "type": "Feature",
     "geometry": {
        "type": "Point",
-       "coordinates":  [ -87.7554215899973,41.8880321576416 ]
+       "coordinates":  [ 41.8880321576416,-87.7554215899973 ]
     },
     "properties": {
     "A":"Morning Everest Charter School",
@@ -197,7 +197,7 @@ var austin = {
     "type": "Feature",
     "geometry": {
        "type": "Point",
-       "coordinates":  [ -87.7750385595105,41.8943221272474 ]
+       "coordinates":  [ 41.8943221272474,-87.7750385595105 ]
     },
     "properties": {
     "A":"Positive Attitudes Working",
@@ -221,7 +221,7 @@ var austin = {
     "type": "Feature",
     "geometry": {
        "type": "Point",
-       "coordinates":  [ -87.7492567984218,41.873920858223 ]
+       "coordinates":  [ 41.873920858223,-87.7492567984218 ]
     },
     "properties": {
     "A":"George Leland STEM Elementary School",
@@ -245,7 +245,7 @@ var austin = {
     "type": "Feature",
     "geometry": {
        "type": "Point",
-       "coordinates":  [ -87.7663460395617,41.8783844795524 ]
+       "coordinates":  [ 41.8783844795524,-87.7663460395617 ]
     },
     "properties": {
     "A":"Oscar DePriest",
@@ -269,7 +269,7 @@ var austin = {
     "type": "Feature",
     "geometry": {
        "type": "Point",
-       "coordinates":  [ -87.7670950692435,41.906387743132 ]
+       "coordinates":  [ 41.906387743132,-87.7670950692435 ]
     },
     "properties": {
     "A":"Ella Flagg Young Elementary School",
@@ -293,7 +293,7 @@ var austin = {
     "type": "Feature",
     "geometry": {
        "type": "Point",
-       "coordinates":  [ -87.7665975653611,41.8848562616167 ]
+       "coordinates":  [ 41.8848562616167,-87.7665975653611 ]
     },
     "properties": {
     "A":"Edward K Duke Ellington",
@@ -317,7 +317,7 @@ var austin = {
     "type": "Feature",
     "geometry": {
        "type": "Point",
-       "coordinates":  [ -87.7655792797135,41.8978930732387 ]
+       "coordinates":  [ 41.8978930732387,-87.7655792797135 ]
     },
     "properties": {
     "A":"Milton Bruson Math and Science Specialty School",
@@ -341,7 +341,7 @@ var austin = {
     "type": "Feature",
     "geometry": {
        "type": "Point",
-       "coordinates":  [ -87.7458390628825,41.8914404462607 ]
+       "coordinates":  [ 41.8914404462607,-87.7458390628825 ]
     },
     "properties": {
     "A":"KIPP Academy Chicago",
@@ -365,7 +365,7 @@ var austin = {
     "type": "Feature",
     "geometry": {
        "type": "Point",
-       "coordinates":  [ -87.7631633764192,41.8727866557257 ]
+       "coordinates":  [ 41.8727866557257,-87.7631633764192 ]
     },
     "properties": {
     "A":"Plato Learning Academy",
@@ -389,7 +389,7 @@ var austin = {
     "type": "Feature",
     "geometry": {
        "type": "Point",
-       "coordinates":  [ -87.7494073417868,41.8780311770893 ]
+       "coordinates":  [ 41.8780311770893,-87.7494073417868 ]
     },
     "properties": {
     "A":"Spencer Elementary Tech Academy",
@@ -413,7 +413,7 @@ var austin = {
     "type": "Feature",
     "geometry": {
        "type": "Point",
-       "coordinates":  [ -87.7517181120416,41.876756129341 ]
+       "coordinates":  [ 41.876756129341,-87.7517181120416 ]
     },
     "properties": {
     "A":"Chicago Jesuit Academy",
@@ -437,7 +437,7 @@ var austin = {
     "type": "Feature",
     "geometry": {
        "type": "Point",
-       "coordinates":  [ -87.7470149049057,41.8922010480226 ]
+       "coordinates":  [ 41.8922010480226,-87.7470149049057 ]
     },
     "properties": {
     "A":"Nash Elementary School",
@@ -461,7 +461,7 @@ var austin = {
     "type": "Feature",
     "geometry": {
        "type": "Point",
-       "coordinates":  [ -87.7458861864121,41.8950584456442 ]
+       "coordinates":  [ 41.8950584456442,-87.7458861864121 ]
     },
     "properties": {
     "A":"Austin Health Center Cook Co",
@@ -485,7 +485,7 @@ var austin = {
     "type": "Feature",
     "geometry": {
        "type": "Point",
-       "coordinates":  [ -87.7486818802822,41.9022650161784 ]
+       "coordinates":  [ 41.9022650161784,-87.7486818802822 ]
     },
     "properties": {
     "A":"ACCESS Austin Family Health Center",
@@ -509,7 +509,7 @@ var austin = {
     "type": "Feature",
     "geometry": {
        "type": "Point",
-       "coordinates":  [ -87.7487097496059,41.8805086953911 ]
+       "coordinates":  [ 41.8805086953911,-87.7487097496059 ]
     },
     "properties": {
     "A":"South Austin Specialty Clinic",
@@ -533,7 +533,7 @@ var austin = {
     "type": "Feature",
     "geometry": {
        "type": "Point",
-       "coordinates":  [ -87.7537749301634,41.8767333807908 ]
+       "coordinates":  [ 41.8767333807908,-87.7537749301634 ]
     },
     "properties": {
     "A":"Stallings & Associates",
@@ -557,7 +557,7 @@ var austin = {
     "type": "Feature",
     "geometry": {
        "type": "Point",
-       "coordinates":  [ -87.7632652197489,41.8847332767489 ]
+       "coordinates":  [ 41.8847332767489,-87.7632652197489 ]
     },
     "properties": {
     "A":"Circle Family Healthcare",
@@ -581,7 +581,7 @@ var austin = {
     "type": "Feature",
     "geometry": {
        "type": "Point",
-       "coordinates":  [ -87.7553368815316,41.8803095016668 ]
+       "coordinates":  [ 41.8803095016668,-87.7553368815316 ]
     },
     "properties": {
     "A":"Boycin Medical Clinic",
@@ -605,7 +605,7 @@ var austin = {
     "type": "Feature",
     "geometry": {
        "type": "Point",
-       "coordinates":  [ -87.7733519104683,41.8946840141928 ]
+       "coordinates":  [ 41.8946840141928,-87.7733519104683 ]
     },
     "properties": {
     "A":"Planned Parenthood",
@@ -629,7 +629,7 @@ var austin = {
     "type": "Feature",
     "geometry": {
        "type": "Point",
-       "coordinates":  [ -87.7521039703411,41.8739240667308 ]
+       "coordinates":  [ 41.8739240667308,-87.7521039703411 ]
     },
     "properties": {
     "A":"Austin Senior Center",
@@ -653,7 +653,7 @@ var austin = {
     "type": "Feature",
     "geometry": {
        "type": "Point",
-       "coordinates":  [ -87.7508932471469,41.8729388583126 ]
+       "coordinates":  [ 41.8729388583126,-87.7508932471469 ]
     },
     "properties": {
     "A":"The Austin Community Food Co-op",
@@ -677,7 +677,7 @@ var austin = {
     "type": "Feature",
     "geometry": {
        "type": "Point",
-       "coordinates":  [ -87.76502034469,41.8826480328626 ]
+       "coordinates":  [ 41.8826480328626,-87.76502034469 ]
     },
     "properties": {
     "A":"Circle Urban Ministries",
@@ -701,7 +701,7 @@ var austin = {
     "type": "Feature",
     "geometry": {
        "type": "Point",
-       "coordinates":  [ -87.7522980833289,41.8948973576397 ]
+       "coordinates":  [ 41.8948973576397,-87.7522980833289 ]
     },
     "properties": {
     "A":"Westside Health Authority",
@@ -725,7 +725,7 @@ var austin = {
     "type": "Feature",
     "geometry": {
        "type": "Point",
-       "coordinates":  [ -87.7632917821673,41.8898610127474 ]
+       "coordinates":  [ 41.8898610127474,-87.7632917821673 ]
     },
     "properties": {
     "A":"A House in Austin",
@@ -749,7 +749,7 @@ var austin = {
     "type": "Feature",
     "geometry": {
        "type": "Point",
-       "coordinates":  [ -87.7532058323696,41.8817701426792 ]
+       "coordinates":  [ 41.8817701426792,-87.7532058323696 ]
     },
     "properties": {
     "A":"St Martin de Porres Catholic Church",
@@ -773,7 +773,7 @@ var austin = {
     "type": "Feature",
     "geometry": {
        "type": "Point",
-       "coordinates":  [ -87.7636419868894,41.8991898803493 ]
+       "coordinates":  [ 41.8991898803493,-87.7636419868894 ]
     },
     "properties": {
     "A":"Pine Avenue United Church",
@@ -797,7 +797,7 @@ var austin = {
     "type": "Feature",
     "geometry": {
        "type": "Point",
-       "coordinates":  [ -87.772433303908,41.8966322122979 ]
+       "coordinates":  [ 41.8966322122979,-87.772433303908 ]
     },
     "properties": {
     "A":"Hope Community Advent Christian",
@@ -821,7 +821,7 @@ var austin = {
     "type": "Feature",
     "geometry": {
        "type": "Point",
-       "coordinates":  [ -87.7586632568485,41.9095206677698 ]
+       "coordinates":  [ 41.9095206677698,-87.7586632568485 ]
     },
     "properties": {
     "A":"Heritage International Christian Church ",
@@ -845,7 +845,7 @@ var austin = {
     "type": "Feature",
     "geometry": {
        "type": "Point",
-       "coordinates":  [ -87.7654192693872,41.8892288563345 ]
+       "coordinates":  [ 41.8892288563345,-87.7654192693872 ]
     },
     "properties": {
     "A":"Chicago Public LIbrary-Austin",
@@ -869,7 +869,7 @@ var austin = {
     "type": "Feature",
     "geometry": {
        "type": "Point",
-       "coordinates":  [ -87.7793024774808,41.9530695167896 ]
+       "coordinates":  [ 41.9530695167896,-87.7793024774808 ]
     },
     "properties": {
     "A":"Chicago Public LIbrary-Austin/Irving",
@@ -893,7 +893,7 @@ var austin = {
     "type": "Feature",
     "geometry": {
        "type": "Point",
-       "coordinates":  [ -87.7472184785243,41.8950507932398 ]
+       "coordinates":  [ 41.8950507932398,-87.7472184785243 ]
     },
     "properties": {
     "A":"Chicago Public LIbrary-West Chicago Ave",
@@ -917,7 +917,7 @@ var austin = {
     "type": "Feature",
     "geometry": {
        "type": "Point",
-       "coordinates":  [ -87.7552668991745,41.8880147633112 ]
+       "coordinates":  [ 41.8880147633112,-87.7552668991745 ]
     },
     "properties": {
     "A":"By the Hand Club for Kids",
@@ -965,7 +965,7 @@ var austin = {
     "type": "Feature",
     "geometry": {
        "type": "Point",
-       "coordinates":  [ -87.7632652197489,41.8847332767489 ]
+       "coordinates":  [ 41.8847332767489,-87.7632652197489 ]
     },
     "properties": {
     "A":"Boys and Girls Club-Austin High School",
@@ -989,7 +989,7 @@ var austin = {
     "type": "Feature",
     "geometry": {
        "type": "Point",
-       "coordinates":  [ -87.7507663741459,41.880486153608 ]
+       "coordinates":  [ 41.880486153608,-87.7507663741459 ]
     },
     "properties": {
     "A":"The Peace Corner Community Center",
@@ -1013,7 +1013,7 @@ var austin = {
     "type": "Feature",
     "geometry": {
        "type": "Point",
-       "coordinates":  [ -87.7557640994982,41.9142872670713 ]
+       "coordinates":  [ 41.9142872670713,-87.7557640994982 ]
     },
     "properties": {
     "A":"North Austin Center",
@@ -1032,4 +1032,6 @@ var austin = {
     "N":"",
     "O":""
     }
-  }]};
+  }
+]
+};
