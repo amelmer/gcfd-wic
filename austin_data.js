@@ -5,30 +5,6 @@ var austin = {
     "type": "Feature",
     "geometry": {
        "type": "Point",
-       "coordinates":  { }
-    },
-    "properties": {
-    "A":"Partner Name",
-    "B":"Street Address",
-    "C":"City",
-    "D":"Zipcode",
-    "E":"Census Tract",
-    "F":"Phone Number",
-    "G":"Partner Type\n",
-    "H":"Notes about Partner Type Column G",
-    "I":"Programming/ Services Offered\n*for pregnant individuals, parents, babies, infants, or kiddos under 5*\n(Yes, No, Unknown)",
-    "J":"Notes about Programing\nColumn I",
-    "K":"High Foot Traffic? (Yes/No/Unknown)",
-    "L":"Notes about Foot Traffic\nColumn K",
-    "M":"Recommendation: Outreach or Awareness Partner?\n(Awareness, Outreach, Unknown)",
-    "N":"Notes about Recommendation\nColumn M",
-    "O":"Other Relevant Notes"
-    }
-  },
-  {
-    "type": "Feature",
-    "geometry": {
-       "type": "Point",
        "coordinates":  [ -87.7664080627103,41.8899240662873 ]
     },
     "properties": {
