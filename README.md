@@ -77,4 +77,6 @@ The actual features need to be reformatted from this:</br>
        "type": "Point",</br>
        "coordinates":  [ -87.7664080627103,41.8899240662873 ]</br>
     }</br>
-  },
+  },</br>
+</br>
+I then added "var austin = " at the beginning and a ";" at the end of the file and saved it as a javascript (.js) file
