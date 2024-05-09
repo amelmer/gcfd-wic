@@ -11,14 +11,7 @@ var austin = {
     "E":"2514",
     "F":"773-309-8010",
     "G":"School (Awareness)",
-    "H":"PK-8 Private Parochial School",
-    "I":"",
-    "J":"",
-    "K":"",
-    "L":"",
-    "M":"",
-    "N":"",
-    "O":""
+    "H":"PK-8 Private Parochial School"
     },
     "geometry": {
       "type": "Point",
