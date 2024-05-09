@@ -11,14 +11,7 @@ var austin = {
     "E":"2514",
     "F":"773-309-8010",
     "G":"School (Awareness)",
-    "H":"PK-8 Private Parochial School",
-    "I":"",
-    "J":"",
-    "K":"",
-    "L":"",
-    "M":"",
-    "N":"",
-    "O":""
+    "H":"PK-8 Private Parochial School"
     },
     "geometry": {
       "type": "Point",
@@ -35,14 +28,7 @@ var austin = {
     "E":"2519",
     "F":"773-534-0660",
     "G":"School (Awareness)",
-    "H":"Public HS",
-    "I":"",
-    "J":"",
-    "K":"",
-    "L":"",
-    "M":"",
-    "N":"",
-    "O":""
+    "H":"Public HS"
     },
     "geometry": {
       "type": "Point",
@@ -59,14 +45,7 @@ var austin = {
     "E":"2512",
     "F":"773-626-6988",
     "G":"School (Awareness)",
-    "H":"Charter  High School",
-    "I":"",
-    "J":"",
-    "K":"",
-    "L":"",
-    "M":"",
-    "N":"",
-    "O":""
+    "H":"Charter  High School"
     },
     "geometry": {
       "type": "Point",
@@ -83,14 +62,7 @@ var austin = {
     "E":"2514",
     "F":"773-534-6176",
     "G":"School (Awareness)",
-    "H":"Public High School",
-    "I":"",
-    "J":"",
-    "K":"",
-    "L":"",
-    "M":"",
-    "N":"",
-    "O":""
+    "H":"Public High School"
     },
     "geometry": {
       "type": "Point",
@@ -107,14 +79,7 @@ var austin = {
     "E":"2515",
     "F":"773-534-6060",
     "G":"School (Awareness)",
-    "H":"PK-8 Public School",
-    "I":"",
-    "J":"",
-    "K":"",
-    "L":"",
-    "M":"",
-    "N":"",
-    "O":""
+    "H":"PK-8 Public School"
     },
     "geometry": {
       "type": "Point",
@@ -131,14 +96,7 @@ var austin = {
     "E":"2513",
     "F":"773-378-6644",
     "G":"School (Awareness)",
-    "H":"Private Parochial School, children age 3-8",
-    "I":"",
-    "J":"",
-    "K":"",
-    "L":"",
-    "M":"",
-    "N":"",
-    "O":""
+    "H":"Private Parochial School, children age 3-8"
     },
     "geometry": {
       "type": "Point",
@@ -155,14 +113,7 @@ var austin = {
     "E":"2512",
     "F":"773-534-6000",
     "G":"School (Awareness)",
-    "H":"Public School, PK-8",
-    "I":"",
-    "J":"",
-    "K":"",
-    "L":"",
-    "M":"",
-    "N":"",
-    "O":""
+    "H":"Public School, PK-8"
     },
     "geometry": {
       "type": "Point",
@@ -179,14 +130,7 @@ var austin = {
     "E":"2515",
     "F":"312-683-9695",
     "G":"School (Awareness)",
-    "H":"Charter School K-8",
-    "I":"",
-    "J":"",
-    "K":"",
-    "L":"",
-    "M":"",
-    "N":"",
-    "O":""
+    "H":"Charter School K-8"
     },
     "geometry": {
       "type": "Point",
@@ -203,14 +147,7 @@ var austin = {
     "E":"2514",
     "F":"(773)921-0622",
     "G":"School (Awareness)",
-    "H":"Preschool",
-    "I":"",
-    "J":"",
-    "K":"",
-    "L":"",
-    "M":"",
-    "N":"",
-    "O":""
+    "H":"Preschool"
     },
     "geometry": {
       "type": "Point",
@@ -227,14 +164,7 @@ var austin = {
     "E":"2522.01",
     "F":"(773) 534-6340",
     "G":"School (Awareness)",
-    "H":"PK-8",
-    "I":"",
-    "J":"",
-    "K":"",
-    "L":"",
-    "M":"",
-    "N":"",
-    "O":""
+    "H":"PK-8"
     },
     "geometry": {
       "type": "Point",
@@ -251,14 +181,7 @@ var austin = {
     "E":"2521.01",
     "F":"(773) 534-6800",
     "G":"School (Awareness)",
-    "H":"Public Middle School",
-    "I":"",
-    "J":"",
-    "K":"",
-    "L":"",
-    "M":"",
-    "N":"",
-    "O":""
+    "H":"Public Middle School"
     },
     "geometry": {
       "type": "Point",
@@ -275,14 +198,7 @@ var austin = {
     "E":"2506",
     "F":"773-534-6200",
     "G":"School (Awareness)",
-    "H":"Public School, PK-8",
-    "I":"",
-    "J":"",
-    "K":"",
-    "L":"",
-    "M":"",
-    "N":"",
-    "O":""
+    "H":"Public School, PK-8"
     },
     "geometry": {
       "type": "Point",
@@ -298,15 +214,7 @@ var austin = {
     "D":"60644",
     "E":"2520",
     "F":"773-534-6361",
-    "G":"School (Awareness)",
-    "H":"",
-    "I":"",
-    "J":"",
-    "K":"",
-    "L":"",
-    "M":"",
-    "N":"",
-    "O":""
+    "G":"School (Awareness)"
     },
     "geometry": {
       "type": "Point",
@@ -323,14 +231,7 @@ var austin = {
     "E":"2513",
     "F":"773-534-6025",
     "G":"School (Awareness)",
-    "H":"Public Elementary School",
-    "I":"",
-    "J":"",
-    "K":"",
-    "L":"",
-    "M":"",
-    "N":"",
-    "O":""
+    "H":"Public Elementary School"
     },
     "geometry": {
       "type": "Point",
@@ -347,14 +248,7 @@ var austin = {
     "E":"2517",
     "F":"773-938-8554",
     "G":"School (Awareness)",
-    "H":"Charter School",
-    "I":"",
-    "J":"",
-    "K":"",
-    "L":"",
-    "M":"",
-    "N":"",
-    "O":""
+    "H":"Charter School"
     },
     "geometry": {
       "type": "Point",
@@ -370,15 +264,7 @@ var austin = {
     "D":"60644",
     "E":"8314",
     "F":"773-413-3090",
-    "G":"School (Awareness)",
-    "H":"K-8",
-    "I":"",
-    "J":"",
-    "K":"",
-    "L":"",
-    "M":"",
-    "N":"",
-    "O":""
+    "G":"School (Awareness)"
     },
     "geometry": {
       "type": "Point",
@@ -395,14 +281,7 @@ var austin = {
     "E":"2522.01",
     "F":"773-534-615-",
     "G":"School (Awareness)",
-    "H":"Public Elementary School",
-    "I":"",
-    "J":"",
-    "K":"",
-    "L":"",
-    "M":"",
-    "N":"",
-    "O":""
+    "H":"Public Elementary School"
     },
     "geometry": {
       "type": "Point",
@@ -419,14 +298,7 @@ var austin = {
     "E":"2522.01",
     "F":"773-638-6103",
     "G":"School (Awareness)",
-    "H":"Jesuit Middle School",
-    "I":"",
-    "J":"",
-    "K":"",
-    "L":"",
-    "M":"",
-    "N":"",
-    "O":""
+    "H":"Jesuit Middle School"
     },
     "geometry": {
       "type": "Point",
@@ -443,14 +315,7 @@ var austin = {
     "E":"2517",
     "F":"773-534-6126",
     "G":"School (Awareness)",
-    "H":"Public Elementary School",
-    "I":"",
-    "J":"",
-    "K":"",
-    "L":"",
-    "M":"",
-    "N":"",
-    "O":""
+    "H":"Public Elementary School"
     },
     "geometry": {
       "type": "Point",
@@ -467,14 +332,7 @@ var austin = {
     "E":"2510",
     "F":"312- 864-0200",
     "G":"Clinic (Outreach)",
-    "H":"Community Health Center",
-    "I":"",
-    "J":"",
-    "K":"",
-    "L":"",
-    "M":"",
-    "N":"",
-    "O":""
+    "H":"Community Health Center"
     },
     "geometry": {
       "type": "Point",
@@ -493,12 +351,7 @@ var austin = {
     "G":"Clinic (Outreach)",
     "H":"Health Center",
     "I":"Yes",
-    "J":"ACCESS regularly screens patients for food insecurity and provides linkage to immediate food resources, and benefits assistance whenever possible. In addition, ACCESS and the Greater Chicago Food Depository provide regular FRESHTruck food distribution at the following ACCESS sites for ACCESS patients and our communities:",
-    "K":"",
-    "L":"",
-    "M":"",
-    "N":"",
-    "O":""
+    "J":"ACCESS regularly screens patients for food insecurity and provides linkage to immediate food resources, and benefits assistance whenever possible. In addition, ACCESS and the Greater Chicago Food Depository provide regular FRESHTruck food distribution at the following ACCESS sites for ACCESS patients and our communities:"
     },
     "geometry": {
       "type": "Point",
@@ -516,13 +369,7 @@ var austin = {
     "F":"312-746-4870",
     "G":"Clinic (Outreach)",
     "H":"Health Center",
-    "I":"No",
-    "J":"",
-    "K":"",
-    "L":"",
-    "M":"",
-    "N":"",
-    "O":""
+    "I":"No"
     },
     "geometry": {
       "type": "Point",
@@ -541,12 +388,7 @@ var austin = {
     "G":"Clinic (Outreach)",
     "H":"Health Center",
     "I":"",
-    "J":"Internal Medicine practice",
-    "K":"",
-    "L":"",
-    "M":"",
-    "N":"",
-    "O":""
+    "J":"Internal Medicine practice"
     },
     "geometry": {
       "type": "Point",
@@ -565,12 +407,7 @@ var austin = {
     "G":"Clinic (Outreach)",
     "H":"Health Center",
     "I":"",
-    "J":"Provides care for individuals with HIV",
-    "K":"",
-    "L":"",
-    "M":"",
-    "N":"",
-    "O":""
+    "J":"Provides care for individuals with HIV"
     },
     "geometry": {
       "type": "Point",
@@ -589,12 +426,7 @@ var austin = {
     "G":"Clinic (Outreach)",
     "H":"Health Center",
     "I":"",
-    "J":"Private family practice and pediatrics clinic",
-    "K":"",
-    "L":"",
-    "M":"",
-    "N":"",
-    "O":""
+    "J":"Private family practice and pediatrics clinic"
     },
     "geometry": {
       "type": "Point",
@@ -611,14 +443,7 @@ var austin = {
     "E":"2514",
     "F":"(773) 287-2020",
     "G":"Clinic (Outreach)",
-    "H":"Health Center",
-    "I":"",
-    "J":"",
-    "K":"",
-    "L":"",
-    "M":"",
-    "N":"",
-    "O":""
+    "H":"Health Center"
     },
     "geometry": {
       "type": "Point",
@@ -637,12 +462,7 @@ var austin = {
     "G":"Outreach",
     "H":"Catholic Charities Senior Center",
     "I":"Yes",
-    "J":"Provide nutritional information and breakfast and lunch",
-    "K":"",
-    "L":"",
-    "M":"",
-    "N":"",
-    "O":""
+    "J":"Provide nutritional information and breakfast and lunch"
     },
     "geometry": {
       "type": "Point",
@@ -661,12 +481,7 @@ var austin = {
     "G":"Outreach",
     "H":"Community Center",
     "I":"Yes",
-    "J":"Austin Coming Together, a neighborhood community center., provide food resources",
-    "K":"",
-    "L":"",
-    "M":"",
-    "N":"",
-    "O":""
+    "J":"Austin Coming Together, a neighborhood community center., provide food resources"
     },
     "geometry": {
       "type": "Point",
@@ -685,12 +500,7 @@ var austin = {
     "G":"Outreach",
     "H":"Community Center",
     "I":"Yes",
-    "J":"Daily Bread Food Pantry",
-    "K":"",
-    "L":"",
-    "M":"",
-    "N":"",
-    "O":""
+    "J":"Daily Bread Food Pantry"
     },
     "geometry": {
       "type": "Point",
@@ -709,12 +519,7 @@ var austin = {
     "G":"Outreach",
     "H":"Community Center",
     "I":"Yes",
-    "J":"Food pantry referrals and support services of the formerly incarcerated",
-    "K":"",
-    "L":"",
-    "M":"",
-    "N":"",
-    "O":""
+    "J":"Food pantry referrals and support services of the formerly incarcerated"
     },
     "geometry": {
       "type": "Point",
@@ -733,12 +538,7 @@ var austin = {
     "G":"Outreach",
     "H":"Community Center",
     "I":"Yes",
-    "J":"Parenting and nutrition classes",
-    "K":"",
-    "L":"",
-    "M":"",
-    "N":"",
-    "O":""
+    "J":"Parenting and nutrition classes"
     },
     "geometry": {
       "type": "Point",
@@ -757,12 +557,7 @@ var austin = {
     "G":"Outreach",
     "H":"Food Pantry",
     "I":"Yes",
-    "J":"Food Distribution Denter",
-    "K":"",
-    "L":"",
-    "M":"",
-    "N":"",
-    "O":""
+    "J":"Food Distribution Denter"
     },
     "geometry": {
       "type": "Point",
@@ -781,12 +576,7 @@ var austin = {
     "G":"Outreach",
     "H":"Food Pantry",
     "I":"Yes",
-    "J":"Food Distribution Denter",
-    "K":"",
-    "L":"",
-    "M":"",
-    "N":"",
-    "O":""
+    "J":"Food Distribution Denter"
     },
     "geometry": {
       "type": "Point",
@@ -805,12 +595,7 @@ var austin = {
     "G":"Outreach",
     "H":"Food Pantry",
     "I":"",
-    "J":"Food Distribution Denter",
-    "K":"",
-    "L":"",
-    "M":"",
-    "N":"",
-    "O":""
+    "J":"Food Distribution Denter"
     },
     "geometry": {
       "type": "Point",
@@ -829,12 +614,7 @@ var austin = {
     "G":"",
     "H":"Heritage Food  Pantry",
     "I":"Yes",
-    "J":"Food distribution for 60651 and 60639 zip codes",
-    "K":"",
-    "L":"",
-    "M":"",
-    "N":"",
-    "O":""
+    "J":"Food distribution for 60651 and 60639 zip codes"
     },
     "geometry": {
       "type": "Point",
@@ -853,12 +633,7 @@ var austin = {
     "G":"Awareness",
     "H":"Library",
     "I":"Yes",
-    "J":"Career counseling for parents, LEGOS, kids movie mornings, story time",
-    "K":"",
-    "L":"",
-    "M":"",
-    "N":"",
-    "O":""
+    "J":"Career counseling for parents, LEGOS, kids movie mornings, story time"
     },
     "geometry": {
       "type": "Point",
@@ -877,12 +652,7 @@ var austin = {
     "G":"Awareness",
     "H":"Library",
     "I":"Yes",
-    "J":"Teen crochet, family friendly programming, story time",
-    "K":"",
-    "L":"",
-    "M":"",
-    "N":"",
-    "O":""
+    "J":"Teen crochet, family friendly programming, story time"
     },
     "geometry": {
       "type": "Point",
@@ -901,12 +671,7 @@ var austin = {
     "G":"Awareness",
     "H":"Library",
     "I":"Yes",
-    "J":"Reading buddies, After school games, after school mentoring, SPY kids",
-    "K":"",
-    "L":"",
-    "M":"",
-    "N":"",
-    "O":""
+    "J":"Reading buddies, After school games, after school mentoring, SPY kids"
     },
     "geometry": {
       "type": "Point",
@@ -925,12 +690,7 @@ var austin = {
     "G":"Awareness",
     "H":"After school programming",
     "I":"Yes",
-    "J":"Helping children who live in under-resourced neighborhoods",
-    "K":"",
-    "L":"",
-    "M":"",
-    "N":"",
-    "O":""
+    "J":"Helping children who live in under-resourced neighborhoods"
     },
     "geometry": {
       "type": "Point",
@@ -949,12 +709,7 @@ var austin = {
     "G":"Awareness",
     "H":"Kids programming",
     "I":"Yes",
-    "J":"Proivides comprehensive support to Chicago students and families experiencing homelessness; vaccine information for parents",
-    "K":"",
-    "L":"",
-    "M":"",
-    "N":"",
-    "O":""
+    "J":"Proivides comprehensive support to Chicago students and families experiencing homelessness; vaccine information for parents"
     },
     "geometry": {
       "type": "Point",
@@ -973,12 +728,7 @@ var austin = {
     "G":"Awareness",
     "H":"Kids programming",
     "I":"Yes",
-    "J":"Sports, academics, nutrition",
-    "K":"",
-    "L":"",
-    "M":"",
-    "N":"",
-    "O":""
+    "J":"Sports, academics, nutrition"
     },
     "geometry": {
       "type": "Point",
@@ -997,12 +747,7 @@ var austin = {
     "G":"Awareness",
     "H":"Kids programming",
     "I":"Yes",
-    "J":"Sports, homework, skills training, snacks",
-    "K":"",
-    "L":"",
-    "M":"",
-    "N":"",
-    "O":""
+    "J":"Sports, homework, skills training, snacks"
     },
     "geometry": {
       "type": "Point",
@@ -1021,12 +766,7 @@ var austin = {
     "G":"Awareness",
     "H":"Kids programming",
     "I":"Yes",
-    "J":"Kids education, sports, and wellness",
-    "K":"",
-    "L":"",
-    "M":"",
-    "N":"",
-    "O":""
+    "J":"Kids education, sports, and wellness"
     },
     "geometry": {
       "type": "Point",
