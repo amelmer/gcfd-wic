@@ -1,14 +1,32 @@
 <html>
     <head>
-        <title>WIC Access in Chicago</title>
+        <title>Potential WIC Partners</title>
         <link rel="stylesheet" href="https://unpkg.com/leaflet@1.6.0/dist/leaflet.css"/>
         <script src="https://unpkg.com/leaflet@1.6.0/dist/leaflet.js"></script>
         <script src="https://cdnjs.cloudflare.com/ajax/libs/leaflet-ajax/2.1.0/leaflet.ajax.min.js"></script>
-        <script src="https://amelmer.github.io/gcfd-wic/austin_data.js"></script>
+        <script src="austin_data.js"></script>
+        <script src="neighborhoods.js"></script>
         <style>
             #map {
                 width: 100vw;
                 height: 100vh;
+            }
+
+            .legend {
+                border: 1px solid black;
+                line-height: 18px;
+                color: #000000;
+                background-color: white;
+                opacity: 0.7;
+                padding: 6px 10px 6px 6px;
+            }
+            
+            .legend i {
+                width: 18px;
+                height: 18px;
+                float: left;
+                margin-right: 8px;
+                opacity: 1;
             }
 
         </style>
@@ -16,6 +34,42 @@
     <body>
         <div id="map"></div>
         <script type="text/javascript">
+            function getColor(value) {
+                return value == "School" ? '#353CC7':
+                value == "Health Center" ? '#EB12A8': 
+                value == "Community Center" ? '#EBA812': 
+                value == "Senior Center" ? '#287195':
+                value == "Library" ? '#12EBD7':
+                value == "After School Programming" ? '#7735C7':
+                value == "Food Pantry" ? '#3CC735':
+                '#B4B4B4';
+            };
+
+            function getColor2(value) {
+                return value == "South Chicago" ? '#b8cce0':
+                value == "Austin" ? '#b8e0b8': 
+                '#B4B4B4';
+            };
+
+            var onEachFeature = function(feature, layer) { 
+                if (feature.properties) {
+                    var prop = feature.properties;
+                    var popup = '<h3>'+prop['A']+'</h3>'+'<b>Partner Type</b>: '+prop['G'];
+                    feature.layer = layer;
+                    layer.bindPopup(popup, {minWidth: 100});
+                }
+            };
+
+            function style(feature){ 
+                return {
+                    fillColor: getColor2(feature.properties.pri_neigh),
+                    weight: 2,
+                    opacity: 1,
+                    color: 'black',
+                    fillOpacity: 0.7
+                };
+            }
+
             var map = L.map('map', {
                 center: [41.8781, -87.6298],
                 zoom: 12
@@ -26,7 +80,37 @@
                 attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors, Tiles style by <a href="https://www.hotosm.org/" target="_blank">Humanitarian OpenStreetMap Team</a> hosted by <a href="https://openstreetmap.fr/" target="_blank">OpenStreetMap France</a>'
             }).addTo(map);
 
-            var austin = L.geoJSON(austin).addTo(map)
+            var neighborhoods = L.geoJSON(neighborhoods, {style:style}).addTo(map);
+
+            var austin = L.geoJSON(austin, {
+                onEachFeature : onEachFeature,
+                pointToLayer: function(feature, ll){
+                return L.circleMarker(ll, {
+                    color: getColor(feature.properties.H),
+                    opacity: 1,
+                    fillColor: getColor(feature.properties.H),
+                    fillOpacity: 0.6,
+                    radius: 5
+                });}
+            }).addTo(map);
+
+            var legend = L.control({position: 'bottomright'})
+            legend.onAdd = function (map) {
+                var div = L.DomUtil.create('div', 'info legend'),
+                    types = ["School", "Health Center", "Community Center", "Senior Center", "Library", "After School Programming", "Food Pantry"],
+                    labels = [];
+                    div.innerHTML += '<b>Legend</b><br/>'
+                // loop through our density intervals and generate a label with a colored square for each interval
+                for (var i = 0; i < types.length; i++) {
+                    div.innerHTML +=
+                    '<i style="background:' + getColor(types[i]) + '"></i> ' +
+                    types[i]+'<br/>';
+                }
+                return div;
+            };
+
+            legend.addTo(map);
+
         </script>
     </body>
 </html>
