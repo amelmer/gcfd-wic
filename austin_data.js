@@ -15,7 +15,7 @@ var austin = {
     },
     "geometry": {
       "type": "Point",
-      "coordinates":  [ -87.7664080627103,41.8899240662873 ]
+      "coordinates":  [ -87.7664080627103, 41.8899240662873 ]
    }
   },
   {
@@ -32,7 +32,7 @@ var austin = {
     },
     "geometry": {
       "type": "Point",
-      "coordinates":  [ -87.7632652197489,41.8847332767489 ]
+      "coordinates":  [ -87.7632652197489, 41.8847332767489 ]
    }
   },
   {
@@ -66,7 +66,7 @@ var austin = {
     },
     "geometry": {
       "type": "Point",
-      "coordinates":  [ -87.7677183339043,41.8908312585789 ]
+      "coordinates":  [ -87.7677183339043, 41.8908312585789 ]
    }
   },
   {
@@ -83,7 +83,7 @@ var austin = {
     },
     "geometry": {
       "type": "Point",
-      "coordinates":  [ -87.7593606121816,41.8933944450628 ]
+      "coordinates":  [ -87.7593606121816, 41.8933944450628 ]
    }
   },
   {
@@ -100,7 +100,7 @@ var austin = {
     },
     "geometry": {
       "type": "Point",
-      "coordinates":  [ -87.770392903203,41.8963613672031 ]
+      "coordinates":  [ -87.770392903203, 41.8963613672031 ]
    }
   },
   {
@@ -117,7 +117,7 @@ var austin = {
     },
     "geometry": {
       "type": "Point",
-      "coordinates":  [ -87.7557772702586,41.8989557332879 ]
+      "coordinates":  [ -87.7557772702586, 41.8989557332879 ]
    }
   },
   {
@@ -134,7 +134,7 @@ var austin = {
     },
     "geometry": {
       "type": "Point",
-      "coordinates":  [ -87.7554215899973,41.8880321576416 ]
+      "coordinates":  [ -87.7554215899973, 41.8880321576416 ]
    }
   },
   {
@@ -151,7 +151,7 @@ var austin = {
     },
     "geometry": {
       "type": "Point",
-      "coordinates":  [ -87.7750385595105,41.8943221272474 ]
+      "coordinates":  [ -87.7750385595105, 41.8943221272474 ]
    }
   },
   {
@@ -168,7 +168,7 @@ var austin = {
     },
     "geometry": {
       "type": "Point",
-      "coordinates":  [ -87.7492567984218,41.873920858223 ]
+      "coordinates":  [ -87.7492567984218, 41.873920858223 ]
    }
   },
   {
@@ -185,7 +185,7 @@ var austin = {
     },
     "geometry": {
       "type": "Point",
-      "coordinates":  [ -87.7663460395617,41.8783844795524 ]
+      "coordinates":  [ -87.7663460395617, 41.8783844795524 ]
    }
   },
   {
@@ -202,7 +202,7 @@ var austin = {
     },
     "geometry": {
       "type": "Point",
-      "coordinates":  [ -87.7670950692435,41.906387743132 ]
+      "coordinates":  [ -87.7670950692435, 41.906387743132 ]
    }
   },
   {
@@ -218,7 +218,7 @@ var austin = {
     },
     "geometry": {
       "type": "Point",
-      "coordinates":  [ -87.7665975653611,41.8848562616167 ]
+      "coordinates":  [ -87.7665975653611, 41.8848562616167 ]
    }
   },
   {
@@ -235,7 +235,7 @@ var austin = {
     },
     "geometry": {
       "type": "Point",
-      "coordinates":  [ -87.7655792797135,41.8978930732387 ]
+      "coordinates":  [ -87.7655792797135, 41.8978930732387 ]
    }
   },
   {
@@ -252,7 +252,7 @@ var austin = {
     },
     "geometry": {
       "type": "Point",
-      "coordinates":  [ -87.7458390628825,41.8914404462607 ]
+      "coordinates":  [ -87.7458390628825, 41.8914404462607 ]
    }
   },
   {
@@ -268,7 +268,7 @@ var austin = {
     },
     "geometry": {
       "type": "Point",
-      "coordinates":  [ -87.7631633764192,41.8727866557257 ]
+      "coordinates":  [ -87.7631633764192, 41.8727866557257 ]
    }
   },
   {
@@ -285,7 +285,7 @@ var austin = {
     },
     "geometry": {
       "type": "Point",
-      "coordinates":  [ -87.7494073417868,41.8780311770893 ]
+      "coordinates":  [ -87.7494073417868, 41.8780311770893 ]
    }
   },
   {
@@ -302,7 +302,7 @@ var austin = {
     },
     "geometry": {
       "type": "Point",
-      "coordinates":  [ -87.7517181120416,41.876756129341 ]
+      "coordinates":  [ -87.7517181120416, 41.876756129341 ]
    }
   },
   {
@@ -319,7 +319,7 @@ var austin = {
     },
     "geometry": {
       "type": "Point",
-      "coordinates":  [ -87.7470149049057,41.8922010480226 ]
+      "coordinates":  [ -87.7470149049057, 41.8922010480226 ]
    }
   },
   {
@@ -336,7 +336,7 @@ var austin = {
     },
     "geometry": {
       "type": "Point",
-      "coordinates":  [ -87.7458861864121,41.8950584456442 ]
+      "coordinates":  [ -87.7458861864121, 41.8950584456442 ]
    }
   },
   {
@@ -355,7 +355,7 @@ var austin = {
     },
     "geometry": {
       "type": "Point",
-      "coordinates":  [ -87.7486818802822,41.9022650161784 ]
+      "coordinates":  [ -87.7486818802822, 41.9022650161784 ]
    }
   },
   {
@@ -373,7 +373,7 @@ var austin = {
     },
     "geometry": {
       "type": "Point",
-      "coordinates":  [ -87.7487097496059,41.8805086953911 ]
+      "coordinates":  [ -87.7487097496059, 41.8805086953911 ]
    }
   },
   {
@@ -392,7 +392,7 @@ var austin = {
     },
     "geometry": {
       "type": "Point",
-      "coordinates":  [ -87.7537749301634,41.8767333807908 ]
+      "coordinates":  [ -87.7537749301634, 41.8767333807908 ]
    }
   },
   {
@@ -411,7 +411,7 @@ var austin = {
     },
     "geometry": {
       "type": "Point",
-      "coordinates":  [ -87.7632652197489,41.8847332767489 ]
+      "coordinates":  [ -87.7632652197489, 41.8847332767489 ]
    }
   },
   {
@@ -430,7 +430,7 @@ var austin = {
     },
     "geometry": {
       "type": "Point",
-      "coordinates":  [ -87.7553368815316,41.8803095016668 ]
+      "coordinates":  [ -87.7553368815316, 41.8803095016668 ]
    }
   },
   {
@@ -447,7 +447,7 @@ var austin = {
     },
     "geometry": {
       "type": "Point",
-      "coordinates":  [ -87.7733519104683,41.8946840141928 ]
+      "coordinates":  [ -87.7733519104683, 41.8946840141928 ]
    }
   },
   {
@@ -466,7 +466,7 @@ var austin = {
     },
     "geometry": {
       "type": "Point",
-      "coordinates":  [ -87.7521039703411,41.8739240667308 ]
+      "coordinates":  [ -87.7521039703411, 41.8739240667308 ]
    }
   },
   {
@@ -485,7 +485,7 @@ var austin = {
     },
     "geometry": {
       "type": "Point",
-      "coordinates":  [ -87.7508932471469,41.8729388583126 ]
+      "coordinates":  [ -87.7508932471469, 41.8729388583126 ]
    }
   },
   {
@@ -504,7 +504,7 @@ var austin = {
     },
     "geometry": {
       "type": "Point",
-      "coordinates":  [ -87.76502034469,41.8826480328626 ]
+      "coordinates":  [ -87.76502034469, 41.8826480328626 ]
    }
   },
   {
@@ -523,7 +523,7 @@ var austin = {
     },
     "geometry": {
       "type": "Point",
-      "coordinates":  [ -87.7522980833289,41.8948973576397 ]
+      "coordinates":  [ -87.7522980833289, 41.8948973576397 ]
    }
   },
   {
@@ -542,7 +542,7 @@ var austin = {
     },
     "geometry": {
       "type": "Point",
-      "coordinates":  [ -87.7632917821673,41.8898610127474 ]
+      "coordinates":  [ -87.7632917821673, 41.8898610127474 ]
    }
   },
   {
@@ -561,7 +561,7 @@ var austin = {
     },
     "geometry": {
       "type": "Point",
-      "coordinates":  [ -87.7532058323696,41.8817701426792 ]
+      "coordinates":  [ -87.7532058323696, 41.8817701426792 ]
    }
   },
   {
@@ -580,7 +580,7 @@ var austin = {
     },
     "geometry": {
       "type": "Point",
-      "coordinates":  [ -87.7636419868894,41.8991898803493 ]
+      "coordinates":  [ -87.7636419868894, 41.8991898803493 ]
    }
   },
   {
@@ -599,7 +599,7 @@ var austin = {
     },
     "geometry": {
       "type": "Point",
-      "coordinates":  [ -87.772433303908,41.8966322122979 ]
+      "coordinates":  [ -87.772433303908, 41.8966322122979 ]
    }
   },
   {
@@ -618,7 +618,7 @@ var austin = {
     },
     "geometry": {
       "type": "Point",
-      "coordinates":  [ -87.7586632568485,41.9095206677698 ]
+      "coordinates":  [ -87.7586632568485, 41.9095206677698 ]
    }
   },
   {
@@ -637,7 +637,7 @@ var austin = {
     },
     "geometry": {
       "type": "Point",
-      "coordinates":  [ -87.7654192693872,41.8892288563345 ]
+      "coordinates":  [ -87.7654192693872, 41.8892288563345 ]
    }
   },
   {
@@ -656,7 +656,7 @@ var austin = {
     },
     "geometry": {
       "type": "Point",
-      "coordinates":  [ -87.7793024774808,41.9530695167896 ]
+      "coordinates":  [ -87.7793024774808, 41.9530695167896 ]
    }
   },
   {
@@ -675,7 +675,7 @@ var austin = {
     },
     "geometry": {
       "type": "Point",
-      "coordinates":  [ -87.7472184785243,41.8950507932398 ]
+      "coordinates":  [ -87.7472184785243, 41.8950507932398 ]
    }
   },
   {
@@ -694,26 +694,7 @@ var austin = {
     },
     "geometry": {
       "type": "Point",
-      "coordinates":  [ -87.7552668991745,41.8880147633112 ]
-   }
-  },
-  {
-    "type": "Feature",
-    "properties": {
-    "A":"Chicago Hopes for Kids",
-    "B":"???",
-    "C":"Chicago",
-    "D":"????",
-    "E":"",
-    "F":"(312) 690-4240",
-    "G":"Awareness",
-    "H":"Kids programming",
-    "I":"Yes",
-    "J":"Proivides comprehensive support to Chicago students and families experiencing homelessness; vaccine information for parents"
-    },
-    "geometry": {
-      "type": "Point",
-      "coordinates":  { }
+      "coordinates":  [ -87.7552668991745, 41.8880147633112 ]
    }
   },
   {
@@ -732,7 +713,7 @@ var austin = {
     },
     "geometry": {
       "type": "Point",
-      "coordinates":  [ -87.7632652197489,41.8847332767489 ]
+      "coordinates":  [ -87.7632652197489, 41.8847332767489 ]
    }
   },
   {
@@ -751,7 +732,7 @@ var austin = {
     },
     "geometry": {
       "type": "Point",
-      "coordinates":  [ -87.7507663741459,41.880486153608 ]
+      "coordinates":  [ -87.7507663741459, 41.880486153608 ]
    }
   },
   {
@@ -770,7 +751,7 @@ var austin = {
     },
     "geometry": {
       "type": "Point",
-      "coordinates":  [ -87.7557640994982,41.9142872670713 ]
+      "coordinates":  [ -87.7557640994982, 41.9142872670713 ]
    }
   }
 ]
