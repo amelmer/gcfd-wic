@@ -3,10 +3,6 @@ var austin = {
    "features": [
   {
     "type": "Feature",
-    "geometry": {
-       "type": "Point",
-       "coordinates":  [ 41.8899240662873,-87.7664080627103 ]
-    },
     "properties": {
     "A":"The Field School",
     "B":"535 N Parkside Ave",
@@ -23,7 +19,11 @@ var austin = {
     "M":"",
     "N":"",
     "O":""
-    }
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates":  [ -87.7664080627103, 41.8899240662873 ]
+   }
   }
 ]
 };
