@@ -1,4 +1,5 @@
 This is the website to convert the excel file into a geojson: https://www.convertcsv.com/csv-to-geojson.htm </br>
+<b>Before doing this data cleaning potentially just try deleting any features (including the column name feature) that do not have coordinates and running the map</b></br>
 I might have missed some setting in generating it, but it is returning the information in the wrong order </br>
 </br>
 This is what needs to be cleaned:</br>
