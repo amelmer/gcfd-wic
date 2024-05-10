@@ -45,7 +45,13 @@
                 '#B4B4B4';
             };
 
-            function getColor2(value) {
+            function getColorOutline(value) {
+                return value == "Outreach" ? '#a3e4b9':
+                value == "Awareness" ? '#d88f24':
+                '#B4B4B4';
+            };
+
+            function getColorNeighborhood(value) {
                 return value == "South Chicago" ? '#b8cce0':
                 value == "Austin" ? '#b8e0b8': 
                 '#B4B4B4';
@@ -62,7 +68,7 @@
 
             function style(feature){ 
                 return {
-                    fillColor: getColor2(feature.properties.pri_neigh),
+                    fillColor: getColorNeighborhood(feature.properties.pri_neigh),
                     weight: 2,
                     opacity: 1,
                     color: 'black',
@@ -86,11 +92,12 @@
                 onEachFeature : onEachFeature,
                 pointToLayer: function(feature, ll){
                 return L.circleMarker(ll, {
-                    color: getColor(feature.properties.H),
+                    color: getColorOutline(feature.properties.G),
                     opacity: 1,
                     fillColor: getColor(feature.properties.H),
                     fillOpacity: 0.6,
-                    radius: 5
+                    radius: 7,
+                    weight: 2
                 });}
             }).addTo(map);
 
