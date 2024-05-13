@@ -70,7 +70,7 @@
             var onEachFeature = function(feature, layer) { 
                 if (feature.properties) {
                     var prop = feature.properties;
-                    var popup = '<h3>'+prop['A']+'</h3>'+'<b>Partner Type</b>: '+prop['G'];
+                    var popup = '<h3>'+prop['A']+'</h3>'+'<b>Partner Type</b>: '+prop['G']+', '+prop['M'];
                     feature.layer = layer;
                     layer.bindPopup(popup, {minWidth: 100});
                 }
