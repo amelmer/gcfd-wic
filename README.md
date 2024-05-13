@@ -1,83 +1,11 @@
-This is the website to convert the excel file into a geojson: https://www.convertcsv.com/csv-to-geojson.htm </br>
-<b>Before doing this data cleaning potentially just try deleting any features (including the column name feature) that do not have coordinates and running the map</b></br>
-I might have missed some setting in generating it, but it is returning the information in the wrong order </br>
+This is the website I used to convert the excel file into a geojson: https://www.convertcsv.com/csv-to-geojson.htm </br>
 </br>
-This is what needs to be cleaned:</br>
-The feature that's just column names needs to be deleted (and any row that doesn't have a longitude, latitude):</br>
-{</br>
-    "type": "Feature",</br>
-    "geometry": {</br>
-       "type": "Point",</br>
-       "coordinates":  { }</br>
-    },</br>
-    "properties": {</br>
-    "A":"Partner Name",</br>
-    "B":"Street Address",</br>
-    "C":"City",</br>
-    "D":"Zipcode",</br>
-    "E":"Census Tract",</br>
-    "F":"Phone Number",</br>
-    "G":"Partner Type\n",</br>
-    "H":"Notes about Partner Type Column G",</br>
-    "I":"Programming/ Services Offered\n*for pregnant individuals, parents, babies, infants, or kiddos under 5*\n(Yes, No, Unknown)",</br>
-    "J":"Notes about Programing\nColumn I",</br>
-    "K":"High Foot Traffic? (Yes/No/Unknown)",</br>
-    "L":"Notes about Foot Traffic\nColumn K",</br>
-    "M":"Recommendation: Outreach or Awareness Partner?\n(Awareness, Outreach, Unknown)",</br>
-    "N":"Notes about Recommendation\nColumn M",</br>
-    "O":"Other Relevant Notes"</br>
-    }</br>
-  },</br>
-</br>
-The actual features need to be reformatted from this:</br>
-  {</br>
-    "type": "Feature",</br>
-    "geometry": {</br>
-       "type": "Point",</br>
-       "coordinates":  [ -87.7664080627103,41.8899240662873 ]</br>
-    },</br>
-    "properties": {</br>
-    "A":"The Field School",</br>
-    "B":"535 N Parkside Ave",</br>
-    "C":"Chicago",</br>
-    "D":"60644",</br>
-    "E":"2514",</br>
-    "F":"773-309-8010",</br>
-    "G":"School (Awareness)",</br>
-    "H":"PK-8 Private Parochial School",</br>
-    "I":"",</br>
-    "J":"",</br>
-    "K":"",</br>
-    "L":"",</br>
-    "M":"",</br>
-    "N":"",</br>
-    "O":""</br>
-    }</br>
-  },</br>
-</br>
-  to this (geometry second):</br>
-    {</br>
-    "properties": {</br>
-    "A":"The Field School",</br>
-    "B":"535 N Parkside Ave",</br>
-    "C":"Chicago",</br>
-    "D":"60644",</br>
-    "E":"2514",</br>
-    "F":"773-309-8010",</br>
-    "G":"School (Awareness)",</br>
-    "H":"PK-8 Private Parochial School",</br>
-    "I":"",</br>
-    "J":"",</br>
-    "K":"",</br>
-    "L":"",</br>
-    "M":"",</br>
-    "N":"",</br>
-    "O":""</br>
-    },</br>
-    "geometry": {</br>
-       "type": "Point",</br>
-       "coordinates":  [ -87.7664080627103,41.8899240662873 ]</br>
-    }</br>
-  },</br>
-</br>
-I then added "var austin = " at the beginning and a ";" at the end of the file and saved it as a javascript (.js) file
+<b>Data Cleaning Steps</b>
+1. Split the excel file into two separate files. The website does not seem to recognize the second sheet in the file.
+2. Delete the Partner Type (old) column from the Austin spreadsheet.
+3. Delete any rows that do not have latitude and longitude coordinates.
+4. Identify the latitude and longitude columns (16 & 17).
+5. In the text box where it generates the geojson, delete any features it generates that do not have coordinates.
+6. Copy the remaining features and replace the current austin/south chicago geojson with them.
+7. Add "var austin =" or "var south_chicago =" to the beginning of the file and a ";" at the very end of the file and save it as a javascript file (replace the ones that currently exist).
+8. The map should update to show the new data.
