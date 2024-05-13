@@ -5,6 +5,7 @@
         <script src="https://unpkg.com/leaflet@1.6.0/dist/leaflet.js"></script>
         <script src="https://cdnjs.cloudflare.com/ajax/libs/leaflet-ajax/2.1.0/leaflet.ajax.min.js"></script>
         <script src="austin_data.js"></script>
+        <script src="south-chicago.js"></script>
         <script src="neighborhoods.js"></script>
         <style>
             #map {
@@ -38,10 +39,19 @@
                 return value == "School" ? '#353CC7':
                 value == "Health Center" ? '#EB12A8': 
                 value == "Community Center" ? '#EBA812': 
-                value == "Senior Center" ? '#287195':
+                value == "Head Start" ? '#287195':
                 value == "Library" ? '#12EBD7':
-                value == "After School Programming" ? '#7735C7':
+                value == "Community Group" ? '#7735C7':
                 value == "Food Pantry" ? '#3CC735':
+                value == "Childcare" ? '#3CC735':
+                value == "Learning Center" ? '#3CC735':
+                value == "Daycare" ? '#3CC735':
+                value == "Non-Profit" ? '#3CC735':
+                value == "Church" ? '#3CC735':
+                value == "Social Service Org." ? '#3CC735':
+                value == "Housing Org." ? '#3CC735':
+                value == "Grocery Store" ? '#3CC735':
+                value == "Corner Store" ? '#3CC735':
                 '#B4B4B4';
             };
 
@@ -92,9 +102,22 @@
                 onEachFeature : onEachFeature,
                 pointToLayer: function(feature, ll){
                 return L.circleMarker(ll, {
-                    color: getColorOutline(feature.properties.G),
+                    color: getColorOutline(feature.properties.M),
                     opacity: 1,
-                    fillColor: getColor(feature.properties.H),
+                    fillColor: getColor(feature.properties.G),
+                    fillOpacity: 0.6,
+                    radius: 7,
+                    weight: 2
+                });}
+            }).addTo(map);
+
+            var south_chicago = L.geoJSON(south_chicago, {
+                onEachFeature : onEachFeature,
+                pointToLayer: function(feature, ll){
+                return L.circleMarker(ll, {
+                    color: getColorOutline(feature.properties.M),
+                    opacity: 1,
+                    fillColor: getColor(feature.properties.G),
                     fillOpacity: 0.6,
                     radius: 7,
                     weight: 2
@@ -104,7 +127,8 @@
             var legend = L.control({position: 'bottomright'})
             legend.onAdd = function (map) {
                 var div = L.DomUtil.create('div', 'info legend'),
-                    types = ["School", "Health Center", "Community Center", "Senior Center", "Library", "After School Programming", "Food Pantry"],
+                    types = ["School", "Health Center", "Community Center", "Head Start", "Library", "Community Group", "Food Pantry", "Childcare", 
+                    "Learning Center", "Daycare", "Non-Profit", "Church", "Social Service Org.", "Housing Org.", "Grocery Store", "Corner Store"],
                     labels = [];
                     div.innerHTML += '<b>Legend</b><br/>'
                 // loop through our density intervals and generate a label with a colored square for each interval
