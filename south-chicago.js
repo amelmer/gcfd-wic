@@ -284,7 +284,7 @@ var south_chicago = {
      "J":"",
      "K":"Yes",
      "L":"Located by multiple daycare centers, and public transportation access points",
-     "M":"Awareness ",
+     "M":"Awareness",
      "N":"",
      "O":""
      }
@@ -308,7 +308,7 @@ var south_chicago = {
      "J":"",
      "K":"Unknown",
      "L":"Located in the heart of a residential area",
-     "M":"Awareness ",
+     "M":"Awareness",
      "N":"",
      "O":""
      }
@@ -332,7 +332,7 @@ var south_chicago = {
      "J":"",
      "K":"Unknown ",
      "L":"Located in the heart of a residential area",
-     "M":"Awareness ",
+     "M":"Awareness",
      "N":"",
      "O":""
      }
@@ -356,7 +356,7 @@ var south_chicago = {
      "J":"",
      "K":"Yes",
      "L":"Located by multiple small businesses and public transportation access points and a playground",
-     "M":"Awareness ",
+     "M":"Awareness",
      "N":"",
      "O":""
      }
@@ -380,7 +380,7 @@ var south_chicago = {
      "J":"",
      "K":"Yes",
      "L":"Located by multiple small businesses and public transportation access points and a playground",
-     "M":"Awareness ",
+     "M":"Awareness",
      "N":"",
      "O":""
      }
@@ -404,7 +404,7 @@ var south_chicago = {
      "J":"",
      "K":"Unknown",
      "L":"Located at the edge of South in a residential area that butts up against route 41",
-     "M":"Awareness ",
+     "M":"Awareness",
      "N":"",
      "O":""
      }
@@ -428,7 +428,7 @@ var south_chicago = {
      "J":"",
      "K":"Yes",
      "L":"Located by many high traffic small businesses and a major park",
-     "M":"Awareness ",
+     "M":"Awareness",
      "N":"",
      "O":""
      }
@@ -452,7 +452,7 @@ var south_chicago = {
      "J":"",
      "K":"Yes",
      "L":"Located by a couple of churches, and public transportation access points",
-     "M":"Awareness ",
+     "M":"Awareness",
      "N":"",
      "O":""
      }
@@ -932,7 +932,7 @@ var south_chicago = {
      "J":"",
      "K":"",
      "L":"",
-     "M":"",
+     "M":"TBD",
      "N":"",
      "O":""
      }
