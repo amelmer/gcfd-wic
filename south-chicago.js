@@ -1478,7 +1478,7 @@ var south_chicago = {
    "D":"60617",
    "E":"8339",
    "F":"(773) 376-8882",
-   "G":"Coalition",
+   "G":"Community Group",
    "H":"Community Farm ",
    "I":"",
    "J":"",

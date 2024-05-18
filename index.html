@@ -52,7 +52,10 @@
                 value == "Housing Org." ? '#F73993':
                 value == "Grocery Store" ? '#56c658':
                 value == "Corner Store" ? '#19af1a':
-                '#B4B4B4';
+                value == "Shelter" ? '#A14849':
+                value == "Laundromat" ? '#F5eb94':
+                value == "Salon" ? '#F5d394':
+                '#Ff0000';
             };
 
             function getColorOutline(value) {
@@ -127,9 +130,9 @@
             var legend = L.control({position: 'bottomright'})
             legend.onAdd = function (map) {
                 var div = L.DomUtil.create('div', 'info legend'),
-                    types = ["School", "Head Start", "Childcare", "Learning Center", "Daycare", 
+                    types = ["School", "Head Start", "Childcare", "Learning Center", "Daycare", "Laundromat", "Salon",
                     "Community Center", "Community Group", "Library", "Health Center", "Church", 
-                    "Non-Profit", "Social Service Org.", "Housing Org.", "Food Pantry", "Grocery Store", 
+                    "Non-Profit", "Social Service Org.", "Housing Org.", "Shelter", "Food Pantry", "Grocery Store", 
                     "Corner Store"],
                     labels = [];
                     div.innerHTML += '<b>Legend</b><br/>'

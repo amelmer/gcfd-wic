@@ -830,7 +830,7 @@ var austin = {
    "D":"60639",
    "E":"2503",
    "F":"(773) 237-9600",
-   "G":"",
+   "G":"Food Pantry",
    "H":"Heritage Food  Pantry",
    "I":"Yes",
    "J":"Food distribution for 60651 and 60639 zip codes",
